@@ -1,0 +1,22 @@
+.Sidebar_container{
+    max-width: fit-content;
+    min-width: 240px;
+    background-color: #383838;
+    min-height: 90vh;
+    color: white;
+}
+
+.audio_card{
+    background-color: aqua; margin-right: 20px;
+    padding: 5px 10px;
+    padding-right: 40px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 2px 2px 0px 2px black;
+    color: black;
+    text-align: left;
+    text-wrap: nowrap;
+
+}

@@ -1,0 +1,56 @@
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 100%;
+    padding: 100px auto;
+    overflow: hidden;  /* Hide overflow */
+}
+
+.video-container {
+    display: flex;
+    overflow-x: hidden;  /* Hide horizontal overflow */
+    scroll-behavior: smooth;
+    width: 50%;
+    scroll-snap-type: x mandatory;  /* Snap to items */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.video-container::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+video {
+    flex: none;  /* Prevent the video from stretching */
+    width: 100%;  /* Fit the video container */
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    scroll-snap-align: start;  /* Snap to the start of the video */
+}
+
+.scroll-button {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.scroll-button img {
+    height: 3rem;
+}
+
+.left {
+    left: 10px;  /* Adjust position as needed */
+}
+
+.right {
+    right: 10px;  /* Adjust position as needed */
+}

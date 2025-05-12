@@ -1,0 +1,22 @@
+.Reg-Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #383838;
+    padding: 10px 20px ;
+    width: 100%;
+    height: 4rem;
+    position:sticky;
+    
+}
+
+.Reg-Navbar img{
+    height: 70px;
+    
+}
+
+
+.logout_btn{
+    width: auto;
+    padding: 10px 30px;
+}

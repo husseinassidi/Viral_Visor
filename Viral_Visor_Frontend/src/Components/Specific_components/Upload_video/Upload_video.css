@@ -1,0 +1,66 @@
+.Upload_form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px 20px;
+  max-height: fit-content;
+  color: #ff1f00;
+  border-left: 2px solid aqua;
+  border-right: 2px solid aqua;
+
+  border-radius: 20px;
+  margin: 20% 0px;
+}
+
+.upload_input {
+  background-color: #0fcabd91;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  height: 2rem;
+  min-width:400px;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+}
+.upload_input::placeholder {
+  color: white;
+  font-size: 1.1rem;
+}
+.Upload_form select {
+  background-color: #0fcabd91;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  min-height: 2rem;
+  min-width:100%;
+  font-size: 1.1rem;
+  padding: 10px 10px;
+}
+.Upload_form select option {
+  color: black;
+}
+.Upload_form select::-webkit-scrollbar {
+  display: none;
+}
+.drag_n_drop_video {
+  color: white;
+  min-height: 5rem;
+  max-width: 16rem;
+}
+.save_video {
+  background-color: #00ffddaf;
+  align-self: flex-end;
+}
+
+.Upload_form h1{
+  color: aliceblue;
+  text-overflow: 2px 2px 2px black ;
+}
+
+.word_list{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+}

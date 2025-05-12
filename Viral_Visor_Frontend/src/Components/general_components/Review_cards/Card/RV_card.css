@@ -1,0 +1,21 @@
+.RV_Card{
+    color: rgb(0, 0, 0);
+    background-color:#0FCABF;
+    max-height: 350px;
+    max-width: 200px;
+    padding: 30px 30px;
+    padding-top: 70px;
+    border-radius: 20px;
+}
+
+.RV_Card img{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.6);
+}
+
+.RV_Card p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}

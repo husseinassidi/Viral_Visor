@@ -1,0 +1,84 @@
+.Form_container {
+    padding: 50px 100px;
+    width: 50%;
+    background-color: #383838e8;
+    color: white;
+    position: fixed;
+    z-index: 1000;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border-radius: 20px;
+    border:2px solid cyan;
+
+}
+
+
+.Register_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    color: #0FCABF;
+    gap: 10px   ;
+    border-left: 3px  solid #0FCABF;
+    border-right: 3px  solid #0FCABF;
+
+    padding: 20px;
+    border-radius: 20px;
+    max-height: 300px;
+    flex-wrap: wrap;
+
+
+}
+
+
+.registeration_input_container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.registeration_input_container input {
+    background-color: #777777;
+    border: none;
+    border-radius: 7px;
+    height: 20px;
+    min-width: 200px;
+    color: white; /* Set the text color of the input */
+    padding: 5px 15px;
+    font-weight: 600px;
+}
+
+.registeration_input_container input::placeholder {
+    color: rgb(65, 65, 65); /* Change the placeholder color */
+    font-weight: 600;
+}
+
+
+.Register_form_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.close_reg_form{
+    background-color: rgb(255, 0, 0);
+    height: 2rem;
+    width: 2rem;
+     padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.register_form_btn{
+position: relative;
+
+    top: 14.2rem;
+}

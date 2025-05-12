@@ -1,0 +1,39 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.644);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    align-items: center;
+    position: sticky; /* Make the nav sticky */
+    top: 0;           /* Stick to the top */
+    z-index: 1000;    /* Optional: Ensure it stays above other content */
+}
+
+
+nav img{
+    width: 40%;
+    
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    padding: 0px 25px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+
+button{
+    background-color: #0FCABF;
+    padding: 10px 50px;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 100px;
+}

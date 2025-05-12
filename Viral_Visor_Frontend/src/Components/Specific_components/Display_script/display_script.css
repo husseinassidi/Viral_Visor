@@ -1,0 +1,33 @@
+.display_text_section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+    overflow-y: auto;
+    max-height: 90rem;
+    padding-top: 150px;
+
+}
+.display_text_section::-webkit-scrollbar{
+    display: none;
+}
+
+.script_card{
+    color: rgb(199, 197, 197);
+    background-color: rgba(0, 255, 255, 0.199);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 80px;
+    border-radius: 40px;
+}
+
+.script_card h3,h4{
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px  black;
+
+}
+
+

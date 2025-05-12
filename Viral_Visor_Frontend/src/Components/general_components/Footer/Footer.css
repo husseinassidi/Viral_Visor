@@ -1,0 +1,51 @@
+.Footer{
+    height: 40vh;
+    background-color: #383838;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: center;
+    color: white;
+}
+
+.logo_title{
+    display: flex;
+    align-items: center;
+}
+
+.logo_title h1{
+    font-size: 3rem;
+    color: #0FCABF;
+    text-wrap: nowrap;
+    font-weight: 500;
+
+}
+
+.logo_title span{
+    color: #FF1F00;
+    
+}
+
+.media_footer{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: left;
+    gap: 20px;
+    font-size: 1.2rem;
+
+}
+.Contact_footer{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: left;
+    gap: 20px;
+    font-size: 1.2rem;
+
+}
+
+
+li{
+    list-style: none;
+}

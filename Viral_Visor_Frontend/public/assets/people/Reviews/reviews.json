@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "RV_name": "Lorenzo Kramer",
+        "RV_Description": "Viral Visor Just Changed My Life, My Career, My Everything",
+        "image": "/assets/people/person1.webp"
+    },
+    {
+        "id": 2,
+        "RV_name": "Mr Beast",
+        "RV_Description": "Incredible service and support. Viral Visor made everything seamless!",
+        "image": "/assets/people/person2.jpg"
+    },
+    {
+        "id": 3,
+        "RV_name": "Jason Moore",
+        "RV_Description": "My business saw a 200% growth after using Viral Visor. Unbelievable!",
+        "image": "/assets/people/person3.jpg"
+    },
+    {
+        "id": 4,
+        "RV_name": "John Karter",
+        "RV_Description": "My educational reels Just got exciter",
+        "image": "/assets/people/person4.jpg"
+    }
+]
